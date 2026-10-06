@@ -1,0 +1,45 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- 虚拟环境 ----
+venv/
+env/
+.venv/
+ENV/
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- 临时调试文件 ----
+debug_*.py
+verify_*.py
+*_test.py
+mql5_article.*
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+
+# ---- 输出 ----
+output/
+*.log
+
+# ---- 说明 ----
+# data/*.csv （13 个品种 2020–2025 日线）已纳入版本控制，
+# 目的是让 clone 之后无需联网、无需安装 AKShare 即可复现全部回测结果。
+# 如需重新从数据源下载，运行 src/download_data.py（需 Python 3.11 + AKShare）。
